@@ -27,8 +27,6 @@ footer {
     color: rgba(255,255,255,0.8);
 }
 .gat-div {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
@@ -54,8 +52,9 @@ footer {
 .drop-g {
     background: #F7F7F7;
     border-radius: 0 0 10px 10px;
-    margin: 10px auto;
+    margin: 60px auto;
     width: 90%;
+
     
 }
 body {
@@ -208,7 +207,7 @@ body {
     text-align: center;
     font-size: 18px;
     color: #FF6060;
-    margin: 100px 0 0 0;
+    margin: 100px 0;
     text-decoration-line: underline;
 }
 #wallpaper img {
@@ -271,13 +270,17 @@ header {
 .gal {
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
+    max-height: 415px;
+    max-width: 1240px;
+    margin:0 auto;
+
 }
 
 .gal-img {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    aspect-ratio: 16/10;
 }
 
 .gal-arrow-next {
@@ -371,6 +374,7 @@ header {
     }
     .tagcontainer{
         grid-column: 1/3;
+        flex-wrap: wrap;
     }
     #mainmenu{
         grid-template-columns:1fr;
