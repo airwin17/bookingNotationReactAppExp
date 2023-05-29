@@ -54,7 +54,7 @@ footer {
     border-radius: 0 0 10px 10px;
     margin: 60px auto;
     width: 90%;
-
+    height: fit-content;
     
 }
 body {
