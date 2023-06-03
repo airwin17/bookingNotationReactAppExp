@@ -4,11 +4,7 @@ import {Notfound} from "./component/notfound" ;
 import React from "react";
 import {Routes,Route} from "react-router-dom";
 import {Footer} from "./component/footer";
-import Dropdown from "./component/dropdown";
-import Gallery from "./component/gallery";
-import RatingMenu from "./component/RatingManu";
 import DescriptionPage from "./component/DescriptionPage";
-import MainMenu from "./component/MainMenu";
 import About from "./component/About"
 import object from "./obj.json";
 import Error404 from "./component/error404";

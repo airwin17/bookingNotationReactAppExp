@@ -23,7 +23,7 @@ export default class Dropdown extends React.Component{
     }
     render(){
         return (
-            <div className='drop-g' ref={this.div} key={this.props.kay}>
+            <div className='drop-g' ref={this.div} key={this.props.kay} style={this.props.style}>
               <button className="drop-but" onClick={()=>this.display()} ref={this.button}>{this.props.name}
               <img className="drop-icon" src="./images/Vector.png" ref={this.img}/>
               </button>

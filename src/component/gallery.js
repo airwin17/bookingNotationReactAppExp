@@ -1,6 +1,6 @@
 import React from "react";
 export default function Gallery({imagesc}){
-    console.log(2)
+    
     var jsxsection=React.createRef();
     var galp=React.createRef();
     var jsximgref=React.createRef();
