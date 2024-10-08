@@ -18,9 +18,6 @@ import React from "react";
 
 
 export class Notfound extends React.Component{
-    constructor(props){
-        super(props)
-    }
     render(){
         return(
         <section id="notfoundsection">

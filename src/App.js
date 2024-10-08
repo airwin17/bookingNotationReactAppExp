@@ -1,6 +1,5 @@
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Header from './component/header';
-import {Notfound} from "./component/notfound" ;
 import React from "react";
 import {Routes,Route} from "react-router-dom";
 import {Footer} from "./component/footer";

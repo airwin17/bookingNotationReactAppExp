@@ -12,7 +12,7 @@ export default function Gallery({imagesc}){
         galp.current.innerHTML=(imgTarget+1)+"/"+(imagesc.length+1)
     }
     function next(){
-        if(imgTarget==imagesc.length-1){
+        if(imgTarget===imagesc.length-1){
             navto(0);
         }else{
             navto(imgTarget+1)
@@ -20,7 +20,7 @@ export default function Gallery({imagesc}){
         }
     }
     function preview(){
-        if(imgTarget==0){
+        if(imgTarget===0){
             navto(imagesc.length-1);
         }else{
             navto(imgTarget-1)
@@ -29,7 +29,7 @@ export default function Gallery({imagesc}){
 return(
     <section className='gal' >
         <div className="gat-div" ref={jsxsection}>
-            <img className='gal-img' src={imagesc[imgTarget]} ref={jsximgref}/>
+            <img className='gal-img' src={imagesc[imgTarget]} ref={jsximgref} alt="gallery-img"/>
         </div>
         <button className='gal-arrow-next' onClick={()=>next()}>{">"}</button>
         <button className='gal-arrow-preview' onClick={()=>preview()}>{"<"}</button>

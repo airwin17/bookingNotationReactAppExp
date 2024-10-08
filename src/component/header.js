@@ -14,7 +14,7 @@ export default class Header extends React.Component{
             textDecorationLine: 'underline'
         };
         var jsx;
-        if(this.props.underline=="1"){
+        if(this.props.underline==="1"){
             jsx=
             (<header>
                 <nav className="nav-bar">
@@ -25,7 +25,7 @@ export default class Header extends React.Component{
                     </div>
                 </nav>
             </header>)
-        }else if(this.props.underline=="2"){ 
+        }else if(this.props.underline==="2"){ 
             jsx=
             (<header>
                 <nav className="nav-bar">

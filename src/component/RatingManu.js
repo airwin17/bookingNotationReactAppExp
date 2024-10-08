@@ -3,14 +3,14 @@ export default function RatingMenu({name,photo,rating,title,subtitle,tags}){
     var stars=[]
     var tagsclass=[]
     var src;
-    for(var i=0;i<5;i++){
+    for(let i=0;i<5;i++){
         if(i+1>rating)
             src="./images/star.svg"
         else
             src="./images/coloredstar.svg"
-        stars.push(<img className='goldstar' src={src} key={"img"+i} />)
+        stars.push(<img className='goldstar' src={src} key={"img"+i} alt="star"/>)
     }
-    for(var i=0;i<tags.length;i++){
+    for(let i=0;i<tags.length;i++){
         tagsclass.push(<div className='tag' key={"tag"+i}>{tags[i]}</div>)
     }
     return(
@@ -22,7 +22,7 @@ export default function RatingMenu({name,photo,rating,title,subtitle,tags}){
             </div>
             <div className='profile'>
                 <div id='img-profil-container'>
-                    <img id="profil-img" src={photo}/>
+                    <img id="profil-img" alt="profil image" src={photo}/>
                 </div>
                 <p id="name" >{name}</p>
             </div>

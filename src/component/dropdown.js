@@ -8,7 +8,7 @@ export default class Dropdown extends React.Component{
         this.hide=false;
     }
     display(){
-        if(this.hide==true){
+        if(this.hide===true){
             this.paragraph.current.style.display="block"
             this.div.current.style.paddingBottom="10px"
             this.img.current.style.rotate="0deg"
@@ -25,7 +25,7 @@ export default class Dropdown extends React.Component{
         return (
             <div className='drop-g' ref={this.div} key={this.props.kay} style={this.props.style}>
               <button className="drop-but" onClick={()=>this.display()} ref={this.button}>{this.props.name}
-              <img className="drop-icon" src="./images/Vector.png" ref={this.img}/>
+              <img className="drop-icon" src="./images/Vector.png" ref={this.img} alt="drop-icon"/>
               </button>
               <div className='drop-p'ref={this.paragraph} >{this.props.children}</div>
             </div>
