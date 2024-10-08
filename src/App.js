@@ -53,6 +53,12 @@ export default function App() {
           <About navigate={goto}/>
         }
       />
+      <Route
+      path='/'
+      element={
+        <Accueil navigate={goto} underline={"1"} object={object}/>
+      }
+      />
     </Routes>
   );
 }
