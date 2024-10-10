@@ -5,7 +5,7 @@ This is experimental booking notation app
 ## How to use
 - Download and open projet in terminal
 - add "bookNotation" as mongodb database  
-- run command : `npm i react` then `npm start`
+- run command : `npm i react` then `npm start` /n
   [documentation Swagger](http://localhost:4000/api-docs/)
 ## Preview
  ![image](https://github.com/user-attachments/assets/bbc88774-b591-40b3-bce6-1a13cb9881d1)
