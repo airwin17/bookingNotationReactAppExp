@@ -1,6 +1,6 @@
 ## Description
 This is experimental booking notation app <br/>
-the project is currently deployed at [link](http://51.195.101.209:8004/Accueil)
+the project is currently deployed at [here](http://51.195.101.209:8004/Accueil)
 ## Used thechologies
 - React js
 ## How to use
